@@ -1,0 +1,134 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  color: #666;
+}
+
+h1, h2, h3 {
+  margin: 1em 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 1em;
+}
+
+/* Header styles */
+
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.hero {
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  
+}
+
+.hero a {
+  padding: 0.5em 1em;
+  border: 1px solid #ccc;
+  margin-left: 1em;
+}
+
+/* Main content styles */
+.banner {
+  text-align: center;
+  padding: 2em 0;
+}
+
+.banner img {
+  width: 100%; /* Adjust width as needed */
+  max-width: 800px;
+}
+
+.about {
+  padding: 2em;
+}
+
+.benefits {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+  padding: 2em;
+}
+
+.benefit {
+  flex: 1 1 30%; /* Each benefit takes up 1/3 of the space */
+  margin: 1em;
+  padding: 1em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.benefits h3 {
+  margin-bottom: 1em;
+}
+
+/* Call to action styles */
+.call-to-action {
+  text-align: center;
+  padding: 2em;
+}
+
+.btn1 {
+  display: inline-block;
+  padding: 0.75em 1.5em;
+  margin: 0.5em;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #0069d9;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #f0f0f0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.header-title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.header-description {
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;  /* Allow buttons to wrap on smaller screens */
+}
+
